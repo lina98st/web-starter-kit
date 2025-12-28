@@ -12,30 +12,38 @@ The focus is clarity, simplicity and easy customization
 
 ## Project Structure
 
-/
-├─ index.html
-├─ pages/
-│  ├─ about.html
-│  ├─ career.html
-│  ├─ location.html
-│  └─ contact.html
-├─ css/
-│  ├─ main.css
-│  ├─ base/
-│  │  ├─ reset.css
-│  │  └─ variables.css
-│  ├─ layout/
-│  │  ├─ layout.css
-│  │  └─ nav.css
-│  └─ components/
-│     ├─ header.css
-│     └─ footer.css
-├─ js/
-│  └─ main.js
-├─ assets/
-│  ├─ images/
-│  └─ fonts/
-└─ README.md
+### /
+- index.html
+- README.md
+
+### /pages
+- about.html
+- career.html
+- location.html
+- contact.html
+
+### /css
+- main.css
+
+#### /css/base
+- reset.css
+- variables.css
+
+#### /css/layout
+- layout.css
+- nav.css
+
+#### /css/components
+- header.css
+- footer.css
+
+### /js
+- main.js
+
+### /assets
+- images
+- fonts
+
 
 
 ## HTML
