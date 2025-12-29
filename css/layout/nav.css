@@ -1,0 +1,22 @@
+nav {
+  width: 220px;
+  background-color: var(--color-surface);
+  padding: var(--spacing);
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  margin-bottom: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+nav a:hover {
+  color: var(--color-muted);
+}

@@ -1,0 +1,13 @@
+@import "./base/reset.css";
+@import "./base/variables.css";
+@import "./layout/layout.css";
+@import "./layout/nav.css";
+@import "./components/header.css";
+@import "./components/footer.css";
+
+body {
+  font-family: var(--font-base);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+}

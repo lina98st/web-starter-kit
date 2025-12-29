@@ -1,0 +1,15 @@
+header,
+footer {
+  background-color: var(--color-surface);
+  padding: var(--spacing);
+}
+
+.page-wrapper {
+  display: flex;
+  min-height: calc(100vh - 120px);
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
